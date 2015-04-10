@@ -1,0 +1,16 @@
+//Tech Blog
+
+//Parciales base
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/placeholders";
+@import "partials/base";
+@import "partials/layout";
+
+//Modulos-Sections
+@import "partials/sections/navigation";
+@import "partials/sections/main-header";
+@import "partials/sections/main-region";
+@import "partials/sections/sidebarRight";
+@import "partials/sections/contact";
+@import "partials/sections/main-footer";

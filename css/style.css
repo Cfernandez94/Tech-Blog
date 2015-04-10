@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+h1 {
+  color: #fff;
+  font-family: Arial, sans-serif, Helvetica; }
+
+.nav-item {
+  display: inline-block; }
+
+.nav-item-link {
+  color: #fff; }
+
+.main-header {
+  background-color: #00a0aa;
+  margin-top: -21px;
+  height: 279px; }
+
+/*# sourceMappingURL=style.css.map */
