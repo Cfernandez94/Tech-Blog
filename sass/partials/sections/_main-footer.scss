@@ -1,0 +1,80 @@
+/*
+
+	Indice
+
+	#main-footer
+	#nav-side
+	#nav-item-footer
+	#nav-item-footer:hover
+	#nav-item-link-footer#
+	main-footer-social-networks
+	#main-footer-contact
+	#facebook-footer
+	#twitter-footer
+
+*/
+
+.main-footer{
+	display:block;
+	clear:both;
+	background-color:$color-gray-lighter;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.nav-side{
+	margin-left: 5%;
+}
+
+.nav-item-footer{
+	display:inline-block;
+	margin-left: 1%;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+.nav-item-footer:hover{
+	background-color:$color-white;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+.nav-item-link-footer{
+	color:$color-black-lighter;
+}
+
+.main-footer-social-networks{
+	width:20%;
+	float: right;
+	margin-top: -60px;
+	color:$color-black-lighter;
+	font-family:$font-title;
+	font-weight:bold;
+	font-size: 1.1rem;
+	margin-right: 10%;
+}
+
+.main-footer-contact{
+	width: 30%;
+	float: left;
+	display: block;
+	margin-right: 10%;
+}
+
+.facebook-footer{
+	float: left;
+	display: block;
+	margin-top: 10px;
+margin-right: 5%;
+}
+
+.twitter-footer{
+	float: left;
+	display: block;
+	margin-top: 10px;
+margin-right: 5%;
+}

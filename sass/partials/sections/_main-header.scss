@@ -1,5 +1,57 @@
+/*
+
+	Indice
+
+	#main-header
+	#title-main-header
+	#main-header-social-networks
+	#main-social-contact
+	#facebook
+	#twitter
+
+*/
+
 .main-header{
 	background-color:$color-turques;
-	margin-top: -21px;
+	margin-top: -32px;
 	height:279px;
+	padding-left: 9%;
+}
+
+.title-main-header{
+	color:$color-white;
+	font-family:$font-title;
+	padding-top: 15px;
+	font-size: 3rem;
+}
+
+.main-header-social-networks{
+	width:20%;
+	float: right;
+	color:$color-white;
+	font-family:$font-title;
+	font-weight:bold;
+	font-size: 1.1rem;
+	margin-right: 10%;
+margin-top: 40px;
+}
+
+.main-social-contact{
+	width: 30%;
+	float: left;
+	display: block;
+	margin-top: 8px;
+margin-right: 10%;
+}
+
+.facebook{
+	float: left;
+	display: block;
+	margin-right: 5%;
+}
+
+.twitter{
+	float: left;
+	display: block;
+	margin-right: 5%;
 }

@@ -20,7 +20,33 @@ a {
   }
 }
 
-h1{
-	color:$color-white;
+.main-region{
+	margin-left:9%;
+	width:54%;	
+}
+
+.aside-main{
+	width:26%;
+	margin-left: 2%;
+}
+
+figure{
+	margin:0px;
+}
+
+.information{
+	font-family:$font-text;
+	font-size: 1.1rem;
+	display:inline-block;
+	color:$color-black-lighter;
+}
+
+.link{
+	color:$color-turques;
+	font-size: 1.1rem;
+}
+
+.navigation{
 	font-family:$font-title;
+	font-weight:bold;
 }
